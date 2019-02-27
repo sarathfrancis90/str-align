@@ -10,6 +10,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bugs": {
+    "url": "https://github.com/sarathfrancis90/str-align/issues"
+  },
+  "homepage": "https://github.com/sarathfrancis90/str-align",
   "author": "Sarath Francis",
   "license": "ISC"
 }
