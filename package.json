@@ -1,6 +1,10 @@
 {
   "name": "str-align",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sarathfrancis90/str-align.git"
+  },
   "description": "A Simple package to align string",
   "main": "index.js",
   "scripts": {
