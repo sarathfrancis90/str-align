@@ -1,0 +1,11 @@
+{
+  "name": "str-align",
+  "version": "1.0.0",
+  "description": "A Simple package to align string",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sarath Francis",
+  "license": "ISC"
+}

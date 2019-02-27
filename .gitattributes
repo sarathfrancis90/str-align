@@ -1,0 +1,63 @@
+# THIS IS ONLY FOR THE gitattributes REPOSITORY.
+
+app/appconfig.json merge=ours
+package.json merge=ours
+
+# Handle line endings automatically for files detected as text
+# and leave all files detected as binary untouched.
+* text=auto
+
+#
+# The above will handle all files NOT found below
+#
+# These files are text and should be normalized (Convert crlf => lf)
+*.gitattributes text
+.gitignore text
+*.md text
+
+*.js text eol=lf
+
+*.cs text=auto diff=csharp 
+*.vb text=auto
+*.c text=auto
+*.cpp text=auto
+*.cxx text=auto
+*.h text=auto
+*.hxx text=auto
+*.py text=auto
+*.rb text=auto
+*.java text=auto
+*.html text=auto
+*.htm text=auto
+*.css text=auto
+*.scss text=auto
+*.sass text=auto
+*.less text=auto
+
+*.lisp text=auto
+*.clj text=auto
+*.sql text=auto
+*.php text=auto
+*.lua text=auto
+*.m text=auto
+*.asm text=auto
+*.erl text=auto
+*.fs text=auto
+*.fsx text=auto
+*.hs text=auto
+
+*.doc  diff=astextplain
+*.DOC	diff=astextplain
+*.docx	diff=astextplain
+*.DOCX	diff=astextplain
+*.dot	diff=astextplain
+*.DOT	diff=astextplain
+*.pdf	diff=astextplain
+*.PDF	diff=astextplain
+*.rtf	diff=astextplain
+*.RTF	diff=astextplain
+
+*.jpg  	binary
+*.png 	binary
+*.gif 	binary
+
